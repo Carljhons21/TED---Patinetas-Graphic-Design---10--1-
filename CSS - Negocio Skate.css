@@ -1,0 +1,266 @@
+
+/* Font */
+
+@font-face {
+  font-family: FontAll;
+  src: url("Fonts/RawengulkDemibold.otf");
+ }
+
+/* Estilos CSS para la barra de navegación */
+
+
+h1 {
+ font-family: FontAll;
+ color: white;
+}
+
+a{
+  font-family: FontAll;
+}
+ nav {
+      background-color: #7ed957;
+      overflow: hidden;
+      
+    
+    }
+    
+    nav a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-family: FontAll;
+      font-size: 25px;
+      margin-top: 35px;
+      margin-left: 10px;
+    }
+
+    
+    nav a:hover {
+      background-color: #ddd;
+      color: rgb(255, 255, 255);
+    }
+
+/* Codigo Para Estilo de las imagenes */
+    .contenedor-imagenes {
+      display: flex;
+    }
+    
+    .imagen {
+      margin: 10px 20px;
+      text-align: center;
+    }
+    
+    .imagen img {
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+    }
+    
+    .imagen p {
+      font-size: 18px;
+      margin-top: 10px;
+    }
+    .contenedor-imagenes{
+      margin: auto;
+      width: 60%;
+
+    }
+   
+  
+   .contenedor-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  video {
+    margin-top: -300px;
+  }
+  body,p{
+    font-family: Roboto;
+  }
+
+
+
+  /* Imagen De Fondo*/
+  body {
+    background-image: url("alejandro-pinero-amerio-Wz3-6gRMy8s-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+ hr{
+  color: #e1ded2;
+ }
+
+ footer {
+  background-color: #7ed957;
+  padding: 10px;
+  text-align: center;
+}
+
+
+
+
+
+
+.logo{
+    float: right;
+    
+}
+
+.contenedor {
+  position: relative;
+  display: inline-block;
+}
+
+.miImagen {
+  width: 200px; 
+  height: auto; 
+}
+
+
+.button1 {
+width: 30px;
+height: 30px;
+border-radius: 60%;
+border: none;
+background-color: #7ed957;
+cursor: pointer;
+}
+
+/* Scooters */
+
+.scooter-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.scooter-card {
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+}
+
+.scooter-image {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  
+}
+
+.scooter-info {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.scooter-title {
+  font-weight: bold;
+}
+
+.scooter-description {
+  margin-top: 10px;
+}
+.add-to-cart-button {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Sobre Nosotros*/
+
+.Cuadro {
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+}
+
+p{
+  font-family: FontAll;
+}
+
+
+
+.company-info {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.company-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.company-description {
+    font-size: 16px;
+    
+}
+
+/* Map Info*/
+
+.map-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.map-image {
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: block;
+}
+
+.map-description {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.calculate-route-button {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.container{
+  width: 100vw;
+  height: 100vh;
+}
+.selection{
+  width: 100vw;
+  height: 50px;
+  background-color: #7ed957;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+
+
+
+
